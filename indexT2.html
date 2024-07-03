@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Básicos de Procesos Selectivos</title>
+    <link rel="stylesheet" href="./css/styleT2.css">
+</head>
+<body>
+    <nav>
+        <img src="./pictures/logo2.png" alt="Logo" width="60" height="60">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="./index .html">Inicio</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Ejercicios Básicos de Procesos Selectivos</h1>
+
+        <h2>Ejercicio 1: Determinar si un número es par o impar</h2>
+        <p>--Problema: Determinar si un número es par o impar</p>
+        <input type="number" id="numero-paridad" placeholder="Ingresa un número">
+        <button onclick="determinarParidad()">Mostrar respuesta</button>
+        <p id="resultado-paridad"></p>
+        <p id="paridad"></p>
+
+        <h2>Ejercicio 2: Determinar si una persona es mayor de edad</h2>
+        <p>--Problema: Determinar si una persona es mayor de edad.</p>
+        <input type="number" id="edad" placeholder="Ingresa la edad">
+        <button onclick="determinarMayorEdad()">Mostrar respuesta</button>
+        <p id="resultado-mayor-edad"></p>
+        <p id="edadex"></p>
+
+        <h2>Ejercicio 3: Determinar si un número es positivo, negativo o cero</h2>
+        <p>--Problema: Determinar si un número es positivo, negativo o cero.</p>
+        <input type="number" id="numero-signo" placeholder="Ingresa un número">
+        <button onclick="determinarSignoNumero()">Mostrar respuesta</button>
+        <p id="resultado-signo"></p>
+        <p id="signo"></p>
+
+        <h2>Ejercicio 4: Determinar si un año es bisiesto</h2>
+        <p>--Problema: Determinar si un año es bisiesto.</p>
+        <input type="number" id="anio" placeholder="Ingresa un año">
+        <button onclick="determinarBisiesto()">Mostrar respuesta</button>
+        <p id="resultado-bisiesto"></p>
+        <p id="bisiesto"></p>
+
+        <h2>Ejercicio 5: Determinar el mayor de dos números</h2>
+        <p>--Problema: Determinar el mayor de dos números.</p>
+        <input type="number" id="numero1" placeholder="Ingresa el primer número">
+        <input type="number" id="numero2" placeholder="Ingresa el segundo número">
+        <button onclick="determinarMayor()">Mostrar respuesta</button>
+        <p id="resultado-mayor"></p>
+        <p id="mayor"></p>
+    </div>
+    <script src="./js/mainT2.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios con cadenas</title>
+    <link rel="stylesheet" href="./css/styleT2.css">
+</head>
+<body>
+    <nav>
+        <img src="./pictures/logo2.png" alt="Logo" width="60" height="60">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="./index .html">Inicio</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>CADENAS</h1>
+
+        <h2>Ejercicio 1: Imprimir cada carácter de una cadena</h2>
+        <p>--Objetivo: Enseñar cómo recorrer una cadena y acceder a cada uno de sus caracteres.</p>
+        <input type="text" id="cadena" placeholder="Ingresar texto">
+        <button onclick="caractercadena()">Mostrar respuesta</button>
+        <p id="resultado-cadena"></p>
+        <p id="cadenaexp"></p>
+
+        <h2>Ejercicio 2:  Contar las vocales en una cadena </h2>
+        <p>--Objetivo: Aprender a contar caracteres específicos en una cadena.</p>
+        <input type="text" id="vocales" placeholder="Ingresar texto">
+        <button onclick="vocalcadena()">Mostrar respuesta</button>
+        <p id="resultado-vocal"></p>
+        <p id="vocal"></p>
+
+        <h2>Ejercicio 3: Invertir una cadena </h2>
+        <p>--Objetivo: Practicar cómo construir una nueva cadena con los caracteres en orden inverso.</p>
+        <input type="text" id="inverso" placeholder="Ingresar texto">
+        <button onclick="invertircadena()">Mostrar respuesta</button>
+        <p id="resultado-invertir"></p>
+        <p id="invertir"></p>
+
+        <h2>Ejercicio 4: Contar palabras en una cadena </h2>
+        <p>--Objetivo: Aprender a contar palabras en una cadena, donde las palabras están separadas por espacios.</p>
+        <input type="text" id="palabras" placeholder="Ingresar texto">
+        <button onclick="palabrascadena()">Mostrar respuesta</button>
+        <p id="resultado-contar"></p>
+        <p id="expconteo"></p>
+
+        <h2>Ejercicio 5: Reemplazar espacios con guiones </h2>
+        <p>--Objetivo: Enseñar cómo modificar una cadena reemplazando ciertos caracteres.</p>
+        <input type="text" id="espacios" placeholder="Ingresar texto">
+        <button onclick="espaciocadena()">Mostrar respuesta</button>
+        <p id="resultado-guiones"></p>
+        <p id="expguiones"></p>
+
+        <h2>Ejercicio 6: Contar caracteres específicos</h2>
+        <p>--Objetivo: Contar cuántas veces aparece un carácter específico en una cadena.</p>
+        <input type="text" id="cantidad" placeholder="Ingresar caracter a contar">
+        <input type="text" id="específico" placeholder="Ingresar texto">
+        <button onclick="especificocadena()">Mostrar respuesta</button>
+        <p id="resultado-caracteres-especificos"></p>
+        <p id="expespecificos"></p>
+
+        <h2>Ejercicio 7: Eliminar caracteres específicos </h2>
+        <p>--Objetivo: Crear una nueva cadena eliminando todas las apariciones de un carácter específico. </p>
+        <input type="text" id="cantidad2" placeholder="Ingresar caracter a eliminar">
+        <input type="text" id="específicoeliminar" placeholder="Ingresar texto">
+        <button onclick="eliminarcaractercadena()">Mostrar respuesta</button>
+        <p id="resultado-caracteres-eliminados"></p>
+        <p id="expcaracterelimi"></p>
+
+        <h2>Ejercicio 8:  Convertir mayúsculas a minúsculas y viceversa </h2>
+        <p>--Objetivo: Aprender a convertir letras mayúsculas en minúsculas y viceversa. </p>
+        <input type="text" id="convertido" placeholder="Ingresar texto">
+        <button onclick="mayusculaminuscula()">Mostrar respuesta</button>
+        <p id="resultado-conversion"></p>
+        <p id="expconversion"></p>
+
+        <h2>Ejercicio 9: Eliminar espacios</h2>
+        <p>--Objetivo: Crear una nueva cadena eliminando todos los espacios.</p>
+        <input type="text" id="espacioseliminar" placeholder="Ingresar texto">
+        <button onclick="eliminarespacios()">Mostrar respuesta</button>
+        <p id="resultado-eliminacion"></p>
+        <p id="expeliminacion"></p>
+
+        <h2>Ejercicio 10:  Contar la longitud de la palabra más larga </h2>
+        <p>--Objetivo: Encontrar la longitud de la palabra más larga en una cadena de palabras separadas por espacios.</p>
+        <input type="text" id="longitud" placeholder="Ingresar texto">
+        <button onclick="caracterlargo()">Mostrar respuesta</button>
+        <p id="resultado-caracter-largo"></p>
+        <p id="expcaracterlargo"></p>
+    </div>
+    <script src="./js/mainT2.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siuuu</title>
+    <link rel="stylesheet" href="./css/styleee.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <div>
+                <img src="./pictures/logo2.png" alt="sin imagen" width="60" height="60">
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h1 class="titulo">Contacto</h1>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="./index .html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <div>
+                   
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <section>
+        <article class="formcontainer">
+            <div>
+                <form action="">
+                    <div>
+                        <label for="Nombre">Nombre</label>
+                        <input id="Nombre" type="text">
+                    </div>
+                    <div>
+                        <label for="Edad">Edad</label>
+                        <input id="Edad" type="number" min="1" max="99" required maxlength="2">
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo</label>
+                        <select id="sexo">
+                            <option value="x">Seleccione</option>
+                            <option value="m">Masculino</option>
+                            <option value="f">Femenina</option>
+                        </select>
+                    </div> 
+                    <div>
+                        <label>
+                            <input type="checkbox" id="gusta" value="yes"> Me gusta
+                        </label>
+                    </div>
+                    <div>
+                        <label for="obs">Comentarios</label>
+                        <textarea id="obs" placeholder="Escribir tu comentario"></textarea>
+                    </div>
+                    <div> 
+                        <button type="button" onclick="contacto()">Aceptar</button>
+                        <button type="reset">Rechazar</button>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

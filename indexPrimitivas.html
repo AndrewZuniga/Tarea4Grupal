@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios con Cadenas</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <script defer src="js/mainV2.js"></script>
+</head>
+<body>
+    <nav>
+        <img src="./pictures/logo2.png" alt="Logo" width="60" height="60">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="./index .html">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Ejercicios con variables primitivas</h1>
+
+        <!-- Ejercicio 1 -->
+        <div class="exercise">
+            <label for="palabra21">Ejercicio 1: Presentar los números pares de n números</label>
+            <input type="text" id="inputNumerosPares" placeholder="11,20,36,89,57">
+            <button onclick="tarea.obtenerNumerosPares()">Mostrar respuesta</button>
+            <div id="resp1" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion1"></p>
+        </div>
+
+        <!-- Ejercicio 2 -->
+        <div class="exercise">
+            <label for="palabra23">Ejercicio 2: Presentar los divisores de un número</label>
+            <input type="text" id="inputDivisores" placeholder="5,92,71,18,3">
+            <button onclick="tarea.obtenerDivisores()">Mostrar respuesta</button>
+            <div id="resp2" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion2"></p>
+        </div>
+
+        <!-- Ejercicio 3 -->
+        <div class="exercise">
+            <label for="palabra23">Ejercicio 3: Verificar si un número es perfecto </label>
+            <input type="text" id="inputNumeroPerfecto" placeholder="Ingrese un numero">
+            <button onclick="tarea.esNumeroPerfecto()">Mostrar respuesta</button>
+            <div id="resp3" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion3"></p>
+        </div>
+
+        <!-- Ejercicio 4 -->
+        <div class="exercise">
+            <label for="palabra23">Ejercicio 4: Verificar si un número es primo </label>
+            <input type="text" id="inputNumeroPrimo" placeholder="Ingrese un numero">
+            <button onclick="tarea.esNumeroPrimo()">Mostrar respuesta</button>
+            <div id="resp4" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion4"></p>
+        </div>   
+
+        <!-- Ejercicio 5 -->
+        <div class="exercise">
+            <label for="palabra23">Ejercicio 5: Invertir un número dividiendo para diez</label>
+            <input type="text" id="inputInvertirNumero" placeholder="Ingrese un numero">
+            <button onclick="tarea.invertirNumero()">Mostrar respuesta</button>
+            <div id="resp5" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion5"></p>
+        </div>
+
+        <!--6-->
+        <div class="exercise">
+            <h3>Ejercicio 6: Multiplicación de dos números por sumas sucesivas </h3>
+            <input type="number" id="inputMultiplicarA" placeholder="Número A">
+            <input type="number" id="inputMultiplicarB" placeholder="Número B">
+            <button onclick="tarea.multiplicarPorSumasSucesivas()">Multiplicar</button>
+            <div id="resp6" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion6"></p>
+        </div>
+
+        <!--7-->
+        <div class="exercise">
+            <h3>Ejercicio 7: División de dos números por restas sucesivas</h3>
+            <input type="number" id="inputDividendo" placeholder="Dividendo">
+            <input type="number" id="inputDivisor" placeholder="Divisor">
+            <button onclick="tarea.dividirPorRestasSucesivas()">Dividir</button>
+            <div id="resp7" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion7"></p>
+        </div>
+
+        <!-- Ejercicio 8 -->
+        <div class="exercise">
+            <label for="palabra23">Ejercicio 8: Presentar la serie de Fibonacci de n números </label>
+            <input type="text" id="inputFibonacci" placeholder="Ingrese la cantidad de numeros que se quiere presentar">
+            <button onclick="tarea.serieFibonacci()">Mostrar respuesta</button>
+            <div id="resp8" class="response">Aquí va la respuesta:</div>
+            <p id="explicacion8"></p>
+        </div>            
+    </div>
+</body>
+</html>
+
